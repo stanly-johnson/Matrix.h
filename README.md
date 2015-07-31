@@ -1,4 +1,4 @@
 Matrix.h
 ========
 
-A header file for dealing with Matrix Operations in C
+A collection of functions for dealing with Matrix Operations in C
