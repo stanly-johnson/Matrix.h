@@ -6,7 +6,7 @@
 
 //function for matrix addition of 3x3 matrix
 //pay attention to the order of arguments accepted by the function
-int* matadd(int *mat_one, int mat_one_size, int *mat_two, int mat_two_size)
+int* 3matadd(int *mat_one, int mat_one_size, int *mat_two, int mat_two_size)
 {
 	int mat_sum[3][3];
 	for(int index_one=0;index_one<20;index_one++)
@@ -21,7 +21,7 @@ int* matadd(int *mat_one, int mat_one_size, int *mat_two, int mat_two_size)
 }
 
 //function to multiply two 3x3 matrix
-int* matmul(int *mat_one, int mat_one_row, int mat_one_col, int *mat_two, int mat_two_row, int mat_two_col)
+int* 3matmul(int *mat_one, int mat_one_row, int mat_one_col, int *mat_two, int mat_two_row, int mat_two_col)
 {
 	int mat_mul[3][3];
 	for(int index_one=0;index_one<20;index_one++)
@@ -47,3 +47,8 @@ int* mat_trans(int *mat_input, int size)
 	}
 	return *mat_trans_result;
 }
+
+int* 2matadd(int *mat_one, int mat_one_size, int* mat_two, int mat_two_size)
+{
+	int mat_sum[2][2];
+	for
